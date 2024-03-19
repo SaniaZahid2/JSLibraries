@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+    
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Link to JS libraries -->
+    <link rel="stylesheet" href="assets/css/glide.core.min.css">
+    <link rel="stylesheet" href="assets/css/glide.theme.min.css">
+    <link href="assets/css/lightbox.css" rel="stylesheet" />
+
+    <!-- Main JS -->
+    <script src="./assets/main.js" defer></script>
+
+    <!-- Page title -->
+    <title>JS libraries</title>
+</head>
+<body>
+    <!-- NAV -->
+    <header>
+        <div class="container">
+            <div class="logo">INTERWOOD</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Sets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to our Furniture Store</h1>
+            <p>Discover our wide range of high-quality furniture</p>
+        </div>
+    </section>
+
+    <!-- Categories section -->
+    <section class="categories">
+        <div id="slideshow1">
+            <h2>Categories</h2>
+            <section id="slideshow">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide" id="img1">
+                                <p>TABLES</p>
+                            </li>
+                            <li class="glide__slide" id="img2">
+                                <p>CHAIRS</p>
+                            </li>
+                            <li class="glide__slide" id="img3">
+                                <p>DECOR</p>
+                            </li>
+                            <li class="glide__slide" id="img4">
+                                <p>SOFA</p>
+                            </li>
+                            <li class="glide__slide" id="img5">
+                                <p>DESK</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Sets Section -->
+    <section class="sets">
+        <div id="slideshow2">
+            <h2>Furniture Sets</h2>
+            <!-- <p>asdad</p> -->
+            <section class="slides">
+             
+                    <a href="assets/css/img/bedroom.jpg" data-lightbox="image-1" data-title="dessert"  data-lightbox="roadtrip"><div id="image1" class="imaheShow"><p>BEDROOM</p></div></a>
+                    <a href="assets/css/img/kitchen.jpg" data-lightbox="image-1" data-title="dessert"  data-lightbox="roadtrip"><div id="image2" class="imaheShow"><p>KITCHEN</p></div></a>
+                    <a href="assets/css/img/dining.jpg" data-lightbox="image-1" data-title="dessert"  data-lightbox="roadtrip"><div id="image3" class="imaheShow"><p>DINING</p></div></a>
+                    <a href="assets/css/img/office.jpg" data-lightbox="image-1" data-title="dessert"  data-lightbox="roadtrip"><div id="image4" class="imaheShow"><p>OFFICE</p></div></a>
+    
+             
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- <div class="container">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>123 Furniture St, City, Country</p>
+                <p>Email: info@furniturestore.com</p>
+                <p>Phone: +123456789</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#" id="facebook"></a></li>
+                    <li><a href="#" id="twitter"></a></li>
+                    <li><a href="#" id="instagram"></a></li>
+                </ul>
+            </div>
+        </div> -->
+        <div class="canvas-interactive-wrapper">
+            <canvas id="canvas-interactive"></canvas>
+            <div class="cta-wrapper">
+                <a href="#default-state" id="default-state-cta" class="active">
+                    <h3>Contact Us</h3>
+                    <p>G7 King St, Toronto, ON, Canada</p>
+                    <p>Email: info@furniturestore.com</p>
+                    <p>Phone: 234 23442 233</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS File links -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="assets/css/lightbox.js"></script>
+    <script src="assets/css/granim.min.js"></script>
+    <script src="assets/css/masonry.pkgd.min.js"></script>
+</body>
+</html>
